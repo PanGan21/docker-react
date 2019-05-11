@@ -6,4 +6,4 @@ before_install:
   - docker build -t panagiotisganelis/docker-react -f Dockerfile.dev .  
 
 scripts:
-  - docker run panagiotisganelis/docker-react npm run test -- -- coverage  
+  - docker run panagiotisganelis/docker-react npm run test -- --coverage  
